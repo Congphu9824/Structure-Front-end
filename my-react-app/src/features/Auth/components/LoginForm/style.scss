@@ -1,0 +1,50 @@
+.login {
+  width: 100%;
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+
+  &__avatar {
+    background-color: red  !important;
+    margin: 0 auto 1rem auto;
+    width: 56px;
+    height: 56px;
+  }
+
+  &__lock {
+    color: white;
+  }
+
+  &__form {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &__button {
+    margin-top: 1rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    border-radius: 8px;
+    background-color: #1976d2;
+    color: white;
+    text-transform: none;
+
+    &:hover {
+      background-color: #145ea8;
+    }
+  }
+}
+
+// Optional: override global button if needed
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}

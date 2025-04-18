@@ -1,0 +1,33 @@
+.status{
+  &__active {
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border: 2px solid green ;
+    color: black;
+    
+    // Hiệu ứng hover
+    &:hover {
+      background-color: #e0ffe0;  
+      cursor: pointer;           
+    }
+  }
+    
+    &__inactive {
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+      border: 2px solid red;
+      color: black;
+      
+      // Hiệu ứng hover
+      &:hover {
+        background-color: #ffe0e0; 
+        cursor: pointer;           
+      }
+    }
+}
+
+.box{
+  margin-top:100px
+}
+
+  

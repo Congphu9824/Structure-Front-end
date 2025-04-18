@@ -1,0 +1,57 @@
+// src/features/Auth/components/register/RegisterForm.scss
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    label {
+      font-weight: 600;
+      margin-top: 1rem;
+      display: block;
+    }
+  
+    input {
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.3rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+  
+      &:hover {
+        background-color: #145ea8;
+      }
+    }
+  }
+
+.register {
+  &__avatar {
+    background-color: red  !important;
+    margin: 0 auto;
+    margin-top:-20px;
+  }
+
+  &__lock {
+    color: white;
+  }
+}
+
+  

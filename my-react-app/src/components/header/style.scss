@@ -1,0 +1,73 @@
+.navlink{
+    &__register{
+        color: aliceblue;
+    }
+    &__login{
+        color: aliceblue;
+    }
+    &__userProfile{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+}
+
+.IconButton {
+    position: absolute;
+    color: gray;
+    float: right;
+}
+
+.search {
+    position: relative;
+    border-radius: 4px; // Replace with your theme's borderRadius if needed
+    background-color: rgba(255, 255, 255, 0.15);
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+    margin-left: 8px; // Replace with your theme's spacing if needed
+    width: auto;
+  }
+  
+  .search-icon-wrapper {
+    padding: 0 16px; // Replace with your theme's spacing if needed
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .styled-input-base {
+    color: inherit;
+    .MuiInputBase-input {
+      padding: 8px 8px 8px 0; // Replace with your theme's spacing if needed
+      padding-left: calc(1em + 32px); // Adjust based on icon size
+      transition: width 0.2s;
+      width: 12ch;
+      &:focus {
+        width: 20ch;
+      }
+    }
+  }
+
+  .dialog{
+    &__loginHere{
+        margin: 10px !important;
+        margin-top: -10px !important;
+    }
+    &__RegisterHere{
+        margin: 10px !important;
+        margin-top: -30px !important;
+    }
+
+  }
+  
+  // style.scss
+.navlink {
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+  
+  
