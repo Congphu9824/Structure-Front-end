@@ -5,6 +5,7 @@ import Login from './features/Auth/components/Login'
 import Register from './features/Auth/components/Register'
 import UserProfile from './features/User/components/UserProfile'
 import Footer from './components/footer'
+import Logout from './features/Auth/components/Logout/Logout'
 
 function App() {
 

@@ -1,11 +1,10 @@
-// src/app/reducers/index.js
 import { combineReducers } from "redux";
 
-// Giả sử bạn có một reducer cho người dùng
+// reducer được dùng để cập nhật trạng thái của ứng dụng
 const userReducer = (state = {}, action) => {
   switch (action.type) {
     case "SET_USER":
-      return { ...state, user: action.payload };
+      return { ...state, user: action.payload }; // Cập nhật thông tin người dùng
     default:
       return state;
   }
@@ -13,7 +12,7 @@ const userReducer = (state = {}, action) => {
 
 // Kết hợp các reducer
 const rootReducer = combineReducers({
-  user: userReducer, // Thêm các reducer khác nếu có
+  user: userReducer, //  Reducer quản lý thông tin người dùng
 });
 
 export default rootReducer;
